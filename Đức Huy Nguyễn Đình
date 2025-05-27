@@ -1,0 +1,52 @@
+/* Skip to content link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: black;
+    color: white;
+    padding: 8px;
+    z-index: 100;
+}
+.skip-link:focus {
+    top: 0;
+}
+
+/* Navigation style */
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+/* Logo in nav */
+nav img {
+    width: 10%;
+}
+
+/* Commented out li style */
+/*
+li {
+    list-style: none;
+}
+*/
+
+/* Grid layout */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 20px;
+}
+
+/* Grid images */
+.grid img {
+    width: 100%;
+}
+
+/* Flex layout (áp dụng trong parks.html nếu cần) */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
