@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Trang Chủ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="#main" class="skip-link">Bỏ qua đến nội dung chính</a>
+    <header>
+        <h1>Chào mừng đến với Website của tôi</h1>
+    </header>
+    <nav>
+        <img src="logo.png" alt="Logo">
+        <ul>
+            <li><a href="index.html">Trang Chủ</a></li>
+            <li><a href="parks.html">Công Viên</a></li>
+            <li><a href="about.html">Giới Thiệu</a></li>
+        </ul>
+    </nav>
+    <main id="main">
+        <section class="grid">
+            <img src="park1.jpg" alt="Công viên 1">
+            <p>Công viên trung tâm thành phố.</p>
+            <img src="park2.jpg" alt="Công viên 2">
+            <p>Công viên sinh thái ngoài ô.</p>
+        </section>
+    </main>
+</body>
+</html>
